@@ -62,7 +62,6 @@ public class OrderProduct {
             String item2 = "";
             String item3 = "";
             item1 = readerObj.getCellData(row, "Item1");
-            Thread.sleep(Duration.ofSeconds(1));
             if (item1.equalsIgnoreCase("backpack")) {
                 addBackPack.click();
             } else if (item1.equalsIgnoreCase("tshirt")) {
