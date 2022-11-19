@@ -12,7 +12,7 @@ public class SaucePage {
 
         URL="https://www.saucedemo.com/";
         driver=DriversManager.getDriver("edge");
-        inputFilePath="src/test/java/inputFiles/sauceInputFile.xlsx";
+        inputFilePath="src/test/java/inputFiles/sauceInputFile1.xlsx";
 
 
     }
