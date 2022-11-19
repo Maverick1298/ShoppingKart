@@ -117,6 +117,8 @@ public class OrderProduct {
 
             }
         readerObj.closeFile();
+        driver.close();
+
     }
 
 }
