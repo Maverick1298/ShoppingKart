@@ -105,7 +105,7 @@ public class OrderProduct {
 
             continueBtn.click();
 
-            System.out.println("Hi "+fName+" your product will be delivered to "+Double.valueOf(zip));
+            System.out.println("Hi "+fName+" your product will be delivered to "+zip);
             String[] totalItem=itemTotal.getText().split(":");
             readerObj.setCellData(row,"itemTotal",totalItem[1].trim());
             String[] taxVal=tax.getText().split(":");
