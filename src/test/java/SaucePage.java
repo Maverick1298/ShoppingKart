@@ -11,7 +11,7 @@ public class SaucePage {
     public void getURL(){
 
         URL="https://www.saucedemo.com/";
-        driver=DriversManager.getDriver("edge");
+        driver=DriversManager.getDriver("chrome");
         inputFilePath="src/test/java/inputFiles/sauceInputFile.xlsx";
 
 
